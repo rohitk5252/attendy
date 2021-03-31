@@ -10,13 +10,13 @@ driver.get('https://guru.gndec.ac.in/login/index.php')
 id_box = driver.find_element_by_name('username')
 
 #send information
-id_box.send_keys('1921089')
+id_box.send_keys('1921199')
 
 # find password box
 pass_box = driver.find_element_by_name('password')
 
 #send password
-pass_box.send_keys('O42166E')
+pass_box.send_keys('O40881C')
 
 # find login button
 login_button = driver.find_element_by_id('loginbtn')
