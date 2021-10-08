@@ -10,7 +10,7 @@ driver.get('https://guru.gndec.ac.in/login/index.php')
 id_box = driver.find_element_by_name('username')
 
 #send information
-id_box.send_keys('1921199')
+id_box.send_keys('1921093')
 
 # find password box
 pass_box = driver.find_element_by_name('password')
